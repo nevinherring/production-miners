@@ -7,17 +7,33 @@ nav {
 }
 
 #home {
-  height: 700px;
+  height: 50em;
 }
 
 #home img {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
   width: 100%;
+  height: 100%;
 }
 
 section {
-  height: 60em;
+  height: 40em;
+}
+
+section.history {
+  padding-top: 7em;
+  background-color: yellow;
+}
+
+section.history img {
+  height: 23em;
+  padding-top: 1em;
+}
+
+section.history p {
+  padding-top: 6em;
+  line-height: 2em;
 }
 
 .grow {

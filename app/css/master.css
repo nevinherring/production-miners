@@ -6,10 +6,18 @@ nav {
 
 }
 
-section img {
+#home {
+  height: 700px;
+}
+
+#home img {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
   width: 100%;
+}
+
+section {
+  height: 60em;
 }
 
 .grow {
@@ -21,7 +29,7 @@ section img {
 }
 
 footer {
-  height: 3em;
+  height: 10em;
   text-align: left;
 }
 

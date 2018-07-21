@@ -1,0 +1,22 @@
+.grow {
+  transition: all .2s ease-in-out;
+ }
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  height: 3em;
+  text-align: left;
+}
+
+footer a {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer p {
+  display: flex;
+  justify-content: flex-start;
+}
